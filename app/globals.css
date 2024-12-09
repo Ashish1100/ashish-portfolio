@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ /* hero section */
+.heroSocialIcon {
+  @apply size-4 rounded opacity-70 hover:opacity-100 transition;
+}
+
+/* education section */
+.text-styling {
+  @apply text-xs opacity-80 mt-px;
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
