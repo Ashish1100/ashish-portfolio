@@ -372,7 +372,7 @@ const {
 
   export const navMenuItems = [
     { name: "Home", link: "#" },
-    { name: "About More", link: "/experience" },
+    { name: "About Me", link: "/experience" },
     { name: "Resume", link: "https://drive.google.com/file/d/1LXza54-VOX4Cb7VbzT0LSDygksIeTSkY/view?usp=sharing" },
     { name: "Contacts", link: "#contact" },
   ];

@@ -18,7 +18,7 @@ function BlogsSection() {
             </div>
 
             <div>
-              <p>
+              
                 <span className="">{blog.title}</span>
                 <a
                   href={blog.link}
@@ -26,9 +26,9 @@ function BlogsSection() {
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline inline mx-2 underline-offset-4"
                 >
-                  Read more
+                  Read More
                 </a>
-              </p>
+              
             </div>
           </div>
         ))}
