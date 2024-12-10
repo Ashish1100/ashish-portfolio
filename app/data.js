@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import hero_email from "@/public/email.png";
 import hero_github from "@/public/hero_github.jpg";
 import hero_linkedin from "@/public/hero_linkedin.png";
@@ -104,88 +105,9 @@ const {
   } = techLinks;
 
 
-  export const skills = [
-    {
-      url: nextjs,
-      name: "NextJS",
-    },
-    {
-      url: react,
-      name: "React",
-    },
-    {
-      url: tailwindcss,
-      name: "TailwindCSS",
-    },
-    {
-      url: javascript,
-      name: "JavaScript",
-    },
-    {
-      url: typescript,
-      name: "TypeScript",
-    },
-    {
-      url: git,
-      name: "Git",
-    },
-    {
-      url: kubernetes,
-      name: "Kubernetes",
-    },
-    {
-      url: linux,
-      name: "Linux",
-    },
-    {
-      url: jenkins,
-      name: "Jenkins",
-    },
-    {
-      url: terraform,
-      name: "Terraform",
-    },
-    {
-      url: ansible,
-      name: "Ansible",
-    },
-    {
-      url: python,
-      name: "Python",
-    },
-    {
-      url: docker,
-      name: "Docker",
-    },
-    {
-      url: java,
-      name: "Java",
-    },
-    {
-      url: aws,
-      name: "AWS",
-    },
-    {
-      url: prometheus,
-      name: "Prometheus",
-    },
-    {
-      url: argocd,
-      name: "ArgoCD",
-    },
-    {
-      url: mongodb,
-      name: "MongoDB",
-    },
-  ];
+  
   
 
- export  const socialLinks = [
-    { href: "https://www.linkedin.com/in/your-profile", image: hero_linkedin },
-    { href: "https://github.com/your-profile", image: hero_github },
-    { href: "https://scholar.google.com/citations?user=your-id", image: hero_google_scholar },
-    { href: "mailto:your-email@example.com", image: hero_email },
-  ];
 
 
 
@@ -457,9 +379,15 @@ const {
 
 
 
-
 // hero section
 export const name = "Ashish Saha"
+export  const socialLinks = [
+  { href: "https://www.linkedin.com/in/your-profile", image: hero_linkedin },
+  { href: "https://github.com/your-profile", image: hero_github },
+  { href: "https://scholar.google.com/citations?user=your-id", image: hero_google_scholar },
+  { href: "mailto:your-email@example.com", image: hero_email },
+];
+
 
 
 // work section
