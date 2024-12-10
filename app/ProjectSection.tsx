@@ -8,6 +8,7 @@ import useVisibleItems from "./hooks/useVisibleItems";
 
 function ProjectSection() {
   const { visibleItems, toggleVisibility } = useVisibleItems(ProjectList, 4);
+  
 
   return (
     <>

@@ -10,7 +10,7 @@ import { socialLinks } from "./data";
 function HeroSection() {
   return (
     <div className="relative">
-      <div className="flex p-3 gap-3">
+      <div className="flex p-7 gap-3">
         <Image
           src={ashish}
           className="size-32 rounded  border p-1 600"
@@ -20,10 +20,11 @@ function HeroSection() {
           <p className="text-4xl font-semibold  text-gray-900 opacity-100">
             {data.name}
           </p>
-          <p className="">Developing and researching in Data Science and AI.</p>
-          <p> Previously worked as an intern at Samsung, ISRO</p>
-          <p>(Govt. of India). Regularly evaluating new and</p>
-          <p>evolving technologies.</p>
+          <p className="text-sm">Developing and researching in Data Science and AI.</p>
+          <p className="text-sm"> Previously worked as an intern at Samsung, ISRO</p>
+          <p className="text-sm">(Govt. of India). Regularly evaluating new and</p>
+          <p className="text-sm">evolving technologies.</p>
+          
           <div className="flex gap-1 my-3 items-center">
             {socialLinks.map((social, index) => (
               <SocialIcon key={index} href={social.href} image={social.image} />
