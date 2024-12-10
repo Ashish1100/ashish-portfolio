@@ -23,7 +23,10 @@ const ProjectCard = ({
   github,
 }: Props) => {
   return (
-    <div data-aos="fade-up" className=" border relative bg-zinc-100 text-black rounded overflow-hidden">
+    <div
+      data-aos="fade"
+      className=" border relative bg-zinc-100 text-black rounded overflow-hidden"
+    >
       <div className="absolute -left-1.5 top-0">
         <span className="w-3 h-[1.2px] bg-black bg-opacity-70 absolute"></span>
         <span className="w-3 h-[1.2px] rotate-90 bg-black  bg-opacity-70 absolute"></span>

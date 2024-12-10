@@ -193,8 +193,8 @@ const {
     {
         id: 1,
         tag: "top",
-        title: "Automated CICD Pipeline",
-        category: "devops",
+        title: "Aiml project",
+        category: "aiml",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -207,8 +207,8 @@ const {
     {
         id: 2,
         tag: "top",
-        title: "Automated CICD Pipeline",
-        category: "devops",
+        title: "data science project",
+        category: "data science",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -221,8 +221,8 @@ const {
     {
         id: 3,
         tag: "top",
-        title: "Automated CICD Pipeline",
-        category: "devops",
+        title: "web dev project",
+        category: "webdev",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -235,7 +235,7 @@ const {
     {
         id: 4,
         tag: "top",
-        title: "Automated CICD Pipeline",
+        title: "devops project",
         category: "devops",
         image: cicd2,
         description:
@@ -249,8 +249,22 @@ const {
     {
         id: 5,
         tag: "top",
-        title: "Automated CICD Pipeline",
-        category: "devops",
+        title: "aiml project 2",
+        category: "aiml",
+        image: cicd2,
+        description:
+          "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
+        tech: [githubActions, argocd, kubernetes, docker],
+        url: undefined,
+        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        detailedDescription:
+          "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
+      },
+      {
+        id: 6,
+        tag: "top",
+        title: "web dev project 2",
+        category: "webdev",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",

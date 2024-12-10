@@ -10,10 +10,10 @@ import { socialLinks } from "./data";
 function HeroSection() {
   return (
     <div className="relative">
-      <div className="flex p-7 gap-3">
+      <div className="flex p-5 gap-3">
         <Image
           src={ashish}
-          className="size-32 rounded  border p-1 600"
+          className="size-32 rounded-full border p-1 600"
           alt="profile"
         />
         <div className="px-2 flex-1 opacity-80">
