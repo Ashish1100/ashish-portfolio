@@ -283,25 +283,7 @@ const {
       location: "Mohali, Punjab, India",
       image: cu,
       link: "https://www.cuchd.in"
-    },
-    {
-      id: 2,
-      university: "Chandigarh University",
-      degree: "Bachelors Degree (B.E/B.Tech), Computer Science and Engineering",
-      duration: "June 2021 - June 2025",
-      location: "Mohali, Punjab, India",
-      image: cu,
-      link: "https://www.cuchd.in"
-    },
-    {
-      id: 3,
-      university: "Chandigarh University",
-      degree: "Bachelors Degree (B.E/B.Tech), Computer Science and Engineering",
-      duration: "June 2021 - June 2025",
-      location: "Mohali, Punjab, India",
-      image: cu,
-      link: "https://www.cuchd.in"
-    },
+    }
   ];
 
 
