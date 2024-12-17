@@ -38,7 +38,7 @@ function News({ children, date }: { children: React.ReactNode; date: string }) {
       </div>
 
       <div>
-        <p>
+        <p className="text-sm">
           {children}
           <span className="text-xs ml-2">{date}</span>
         </p>

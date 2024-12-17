@@ -5,6 +5,7 @@ import { navMenuItems } from "../data";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen((prev) => !prev);
@@ -16,10 +17,13 @@ const Navbar = () => {
 
   // Close the menu if the click is outside of the nav menu
   useEffect(() => {
-    const handleClickOutside = (event: { target: unknown }) => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as Node;
       if (
         menuRef.current &&
-        !menuRef.current.contains(event.target as Node) &&
+        !menuRef.current.contains(target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(target) &&
         isMenuOpen
       ) {
         closeMenu();
@@ -49,8 +53,13 @@ const Navbar = () => {
     <nav className="relative">
       {/* Hamburger Icon */}
       <button
+        ref={buttonRef} // Add reference to the button
         onClick={toggleMenu}
-        className={`fixed top-4 right-4 z-50 text-2xl ${isMenuOpen ? `text-gray-100 hover:text-gray-300` : 'text-gray-700 hover:text-gray-800'  }  focus:outline-none`}
+        className={`fixed top-4 right-4 z-50 text-2xl ${
+          isMenuOpen
+            ? `text-gray-100 hover:text-gray-300`
+            : "text-gray-700 hover:text-gray-800"
+        } focus:outline-none`}
       >
         {isMenuOpen ? "✖" : "☰"}
       </button>

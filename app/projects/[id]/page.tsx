@@ -21,9 +21,8 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
         <p className="text-2xl sm:text-3xl font-bold">{project?.title}</p>
       </div>
 
-      <div className="p-3 sm:p-4 border rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 dark:bg-zinc-950">
-        
-        <div className="h-fit overflow-hidden border rounded-md flex-1">
+      <div className="p-3 sm:p-4 border rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 bg-zinc-100">
+        <div className="h-fit overflow-hidden border rounded-md flex-1 bg-zinc-200">
           {project?.image && (
             <Image
               className="rounded-t-md object-cover w-full p-3"
@@ -68,7 +67,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
           </div>
         </div>
 
-        <div className="text-zinc-700 dark:text-white lg:w-[50%]">
+        <div className="text-zinc-700 dark:text-white lg:w-[60%]">
           <p className="p-1 bg-purple-100 text-purple-800  text-xs font-bold me-2 px-2.5 py-1 rounded dark:bg-purple-900 dark:text-purple-300 w-fit">
             {project?.category}
           </p>
@@ -92,7 +91,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
           <div>
             <p className="opacity-50 text-sm mt-5">Status</p>
             <div className="flex items-center gap-2">
-              <div className="w-[10px] h-[10px] rounded-full bg-[#50E3C2]"></div>
+              <div className="size-2 rounded-full bg-[#50E3C2]"></div>
               <p>{project?.url ? "Live" : "Ready"}</p>
             </div>
           </div>
@@ -103,7 +102,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
               {project?.tech.map((t, i) => (
                 <div
                   key={i}
-                  className="p-2 px-2 dark:bg-zinc-900 bg-zinc-100 rounded-md w-fit flex-wrap"
+                  className="p-2 px-2 dark:bg-zinc-900 bg-zinc-200 rounded-md w-fit flex-wrap"
                 >
                   <Image
                     className="rounded-sm"

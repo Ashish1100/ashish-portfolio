@@ -17,7 +17,7 @@ const CodeBlock = () => {
         <div className="opacity-50">Python</div>
         <span className="opacity-50 text-xs">main.py</span>
       </div>
-      <div className="px-5 py-8 border-zinc-600 overflow-hidden">
+      <div className="px-5 py-8 border-zinc-600 bg-zinc-100 overflow-hidden">
         <code className="block text-sm">
           <div data-aos="fade" data-aos-delay="100">
             <span className="text-blue-600">{`data = {`}</span>

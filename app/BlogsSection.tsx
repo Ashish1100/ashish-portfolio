@@ -17,7 +17,7 @@ function BlogsSection() {
               <MdOutlinePhoneIphone className="size-8" />
             </div>
 
-            <div>
+            <div className="text-sm">
               <span className="">{blog.title}</span>
               <a
                 href={blog.link}
