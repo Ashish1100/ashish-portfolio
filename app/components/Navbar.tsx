@@ -67,7 +67,7 @@ const Navbar = () => {
             key={index}
             href={item.link}
             target={
-              item.name === "About More" || item.name === "Resume"
+              item.name === "About Me" || item.name === "Resume"
                 ? "_blank"
                 : "_self"
             }
