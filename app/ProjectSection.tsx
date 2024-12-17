@@ -16,7 +16,7 @@ function ProjectSection() {
         <Tabs defaultValue="aiml" className="p-1 my-3 mt-6">
           <div className="w-full mx-auto flex sm:justify-center sm:overflow-hidden overflow-x-scroll rounded-md">
             <TabsList className="">
-              <TabsTrigger value="aiml">AI/ML</TabsTrigger>
+              <TabsTrigger value="aiml">AIML</TabsTrigger>
               <TabsTrigger value="genai">Gen AI & LLMs</TabsTrigger>
               <TabsTrigger value="mlops">MLOps</TabsTrigger>
               <TabsTrigger value="qml">QML</TabsTrigger>
