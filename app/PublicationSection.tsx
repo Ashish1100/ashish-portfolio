@@ -59,7 +59,7 @@ function Publication({ title, year, children, doi, image }: PublicationProps) {
         </Link>
         <span className="opacity-75 text-xs">{year}</span>
       </div>
-      <div>
+      <div className="flext-1">
         <p className="text-md text-zinc-600 font-semibold">{title}</p>
         <p className="text-xs mt-1.5  opacity-90">
           {children}

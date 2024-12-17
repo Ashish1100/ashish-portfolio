@@ -48,11 +48,11 @@ function Work({ image, children, url, title }: WorkProps) {
       <Link target="_blank" href={url}>
         <Image
           src={image}
-          className="size-16 border shadow-sm shadow-black rounded "
+          className="size-16 border shadow-sm shadow-black rounded"
           alt="isro"
         />
       </Link>
-      <div>
+      <div className="flex-1">
         <p className="text-md text-zinc-600 font-semibold">{title}</p>
         {children}
       </div>

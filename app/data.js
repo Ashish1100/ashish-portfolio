@@ -121,7 +121,7 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
+        url: "https://example.com/project1", // URL for the project
         github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
@@ -130,7 +130,7 @@ const {
         id: 2,
         tag: "top",
         title: "data science project",
-        category: "data science",
+        category: "aiml",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -144,7 +144,7 @@ const {
         id: 3,
         tag: "top",
         title: "web dev project",
-        category: "webdev",
+        category: "genai",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -158,12 +158,12 @@ const {
         id: 4,
         tag: "top",
         title: "devops project",
-        category: "devops",
+        category: "aiml",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
+        url: "https://example.com/project4", // URL for the project
         github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
@@ -172,7 +172,7 @@ const {
         id: 5,
         tag: "top",
         title: "aiml project 2",
-        category: "aiml",
+        category: "qml",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
@@ -186,7 +186,21 @@ const {
         id: 6,
         tag: "top",
         title: "web dev project 2",
-        category: "webdev",
+        category: "more",
+        image: cicd2,
+        description:
+          "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
+        tech: [githubActions, argocd, kubernetes, docker],
+        url: undefined,
+        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        detailedDescription:
+          "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
+      },
+      {
+        id: 7,
+        tag: "top",
+        title: "web dev project 2",
+        category: "mlops",
         image: cicd2,
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",

@@ -9,6 +9,7 @@ interface Props {
   children: React.ReactNode;
   hanldeButtonClick?: () => void;
   buttonVisibility?: boolean;
+  buttonUrl?: string;
 }
 
 const SectionHeading = ({
@@ -16,6 +17,7 @@ const SectionHeading = ({
   image,
   hanldeButtonClick = () => {},
   buttonVisibility = true,
+  buttonUrl,
 }: Props) => {
   return (
     <div className="flex justify-between w-full h-fit">
@@ -24,7 +26,9 @@ const SectionHeading = ({
         <Image className="size-4 mb-1" src={image} alt="Experience" />{" "}
         {children}
       </h2>
-      {buttonVisibility && <Button handleClick={hanldeButtonClick} />}
+      {buttonVisibility && (
+        <Button url={buttonUrl} handleClick={hanldeButtonClick} />
+      )}
     </div>
   );
 };

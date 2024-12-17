@@ -1,21 +1,17 @@
 "use client";
 
-import { ProjectList } from "./data";
-import ProjectCard from "./components/ProjectCard";
-import * as data from "./data";
-import SectionHeading from "./components/SectionHeading";
+import { ProjectList } from "../data";
+import ProjectCard from "../components/ProjectCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-function ProjectSection() {
+function ProjectsPage() {
   return (
     <>
-      <div>
-        <SectionHeading buttonUrl="/projects" image={data.projectTitleImage}>
-          {data.projectTitle}
-        </SectionHeading>
-        <Tabs defaultValue="aiml" className="p-1 my-3 mt-6">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <Tabs defaultValue="all" className="p-1 my-3 mt-6">
           <div className="w-full mx-auto flex sm:justify-center sm:overflow-hidden overflow-x-scroll rounded-md">
             <TabsList className="">
+              <TabsTrigger value="all">All</TabsTrigger>
               <TabsTrigger value="aiml">AI/ML</TabsTrigger>
               <TabsTrigger value="genai">Gen AI & LLMs</TabsTrigger>
               <TabsTrigger value="mlops">MLOps</TabsTrigger>
@@ -24,22 +20,37 @@ function ProjectSection() {
             </TabsList>
           </div>
 
+          <TabsContent value="all">
+            <div className="grid md:grid-cols-2 mt-3 lg:grid-cols-3 xl:grid-cols-4 md:p-0 gap-4">
+              {ProjectList.map((p) => (
+                <ProjectCard
+                  key={p.id}
+                  id={p.id}
+                  description={p.description}
+                  image={p.image}
+                  tech={p.tech}
+                  title={p.title}
+                  url={p.url}
+                  github={p.github}
+                />
+              ))}
+            </div>
+          </TabsContent>
+
           <TabsContent value="aiml">
             <div className="grid md:grid-cols-2 mt-3 lg:grid-cols-3 xl:grid-cols-4 md:p-0 gap-4">
-              {ProjectList.slice(0, 4)
-                .filter((p) => p.category === "aiml")
-                .map((p) => (
-                  <ProjectCard
-                    key={p.id}
-                    id={p.id}
-                    description={p.description}
-                    image={p.image}
-                    tech={p.tech}
-                    title={p.title}
-                    url={p.url}
-                    github={p.github}
-                  />
-                ))}
+              {ProjectList.filter((p) => p.category === "aiml").map((p) => (
+                <ProjectCard
+                  key={p.id}
+                  id={p.id}
+                  description={p.description}
+                  image={p.image}
+                  tech={p.tech}
+                  title={p.title}
+                  url={p.url}
+                  github={p.github}
+                />
+              ))}
             </div>
           </TabsContent>
           <TabsContent value="genai">
@@ -112,4 +123,4 @@ function ProjectSection() {
   );
 }
 
-export default ProjectSection;
+export default ProjectsPage;

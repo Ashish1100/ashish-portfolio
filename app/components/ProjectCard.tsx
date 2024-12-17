@@ -1,7 +1,7 @@
 "use client";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
-import { GoArrowUpRight } from "react-icons/go";
+import githubLogo from "@/public/github.png";
 
 interface Props {
   id: number;
@@ -46,15 +46,7 @@ const ProjectCard = ({
           <Link href={`/projects/${id}`}>
             <h3 className=" font-bold my-3 hover:text-violet-500 ">{title}</h3>
           </Link>
-          {url && (
-            <a
-              className="rounded bg-green-100  text-green-800 text-xs me-2 px-2.5 py-0.5 dark:bg-green-900 dark:text-green-300"
-              href={url}
-              target="_blank"
-            >
-              Live
-            </a>
-          )}
+      
         </div>
 
         <p className="opacity-80 text-sm">{description}</p>
@@ -79,13 +71,28 @@ const ProjectCard = ({
               </div>
             ))}
           </div>
-          <a
-            href={github}
-            target="_blank"
-            className="p-2  text-sm  bg-zinc-100 hover:bg-zinc-300 rounded-md"
-          >
-            <GoArrowUpRight />
-          </a>
+          <div className="flex items-center gap-2">
+            <a
+              href={github}
+              target="_blank"
+              className="p-2  text-sm  bg-zinc-100 hover:bg-zinc-300 rounded-md group"
+            >
+              <Image
+                src={githubLogo}
+                alt="github"
+                width={20}
+                height={20}
+                className="opacity-70 group-hover:opacity-100"
+              />
+            </a>
+
+            {url && (
+              <Link href={url} target="_blank" className="border cursor-pointer border-black/60 size-fit px-3 rounded-full text-sm flex gap-1.5 items-center hover:bg-zinc-300">
+                Live
+                <div className="size-2 bg-green-400 rounded-full"></div>
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </div>

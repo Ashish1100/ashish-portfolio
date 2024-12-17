@@ -27,7 +27,7 @@ function EducationSection() {
                 alt={education.university}
               />
             </Link>
-            <div>
+            <div className="flex-1">
               <p className="text-md text-zinc-600 font-semibold">
                 {education.university}
               </p>

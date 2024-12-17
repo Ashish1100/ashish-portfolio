@@ -6,7 +6,7 @@ import { blogsData } from "./data"; // Import the blogs data
 function BlogsSection() {
   return (
     <div>
-      <SectionHeading image={data.blogTitleImage}>
+      <SectionHeading buttonUrl="/blogs" image={data.blogTitleImage}>
         {data.blogTitle}
       </SectionHeading>
 
@@ -18,17 +18,15 @@ function BlogsSection() {
             </div>
 
             <div>
-              
-                <span className="">{blog.title}</span>
-                <a
-                  href={blog.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline inline mx-2 underline-offset-4"
-                >
-                  Read More
-                </a>
-              
+              <span className="">{blog.title}</span>
+              <a
+                href={blog.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline inline mx-2 underline-offset-4"
+              >
+                Read More
+              </a>
             </div>
           </div>
         ))}
