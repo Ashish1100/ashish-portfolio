@@ -63,7 +63,7 @@ const Form = ({ handleSubmit }: Props) => {
         <input
           type="email"
           name="email"
-          placeholder="Enter a valid email address"
+          placeholder="Enter your valid email"
           className="w-full p-2 border border-gray-300 bg-gray-300/20 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
           required
         />
@@ -90,7 +90,7 @@ const Form = ({ handleSubmit }: Props) => {
         </label>
         <textarea
           name="message"
-          placeholder="Enter your message"
+          placeholder="Your message"
           className="w-full p-2 border border-gray-300 bg-gray-300/20 rounded-md placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
           rows={3}
           required
@@ -100,7 +100,7 @@ const Form = ({ handleSubmit }: Props) => {
       {/* Submit Button */}
       <button
         type="submit"
-        className="w-full py-2 bg-[#B1F0F7] font-semibold rounded-md hover:bg-[#88d1d9] transition duration-200"
+        className="w-full py-2 bg-[#7BD3EA] font-semibold rounded-md hover:bg-[#6ee485] transition duration-200"
         data-aos="fade-down"
         data-aos-delay="500"
       >
