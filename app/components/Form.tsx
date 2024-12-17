@@ -16,6 +16,7 @@ const Form = ({ handleSubmit }: Props) => {
     AOS.init({
       duration: 1000, // Animation duration
       easing: "ease-in-out", // Easing function for the animation
+      once: true, // Run animation only once
     });
   }, []);
 
