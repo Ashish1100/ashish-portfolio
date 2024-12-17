@@ -28,7 +28,7 @@ const List = () => {
         <div className="flex justify-between items-center mx-2">
           <Image className="size-3" src={tick} alt="tick" />
           <p className="relative inline-flex items-center w-full px-4 py-2 text-xs font-medium  border-gray-200 rounded-t-lg    ">
-            Developing ML/DL models
+            Developing ML/DL Models
           </p>
         </div>
         <div className="flex justify-between items-center mx-2">
@@ -46,7 +46,7 @@ const List = () => {
         <div className="flex justify-between items-center mx-2">
           <Image className="size-3" src={tick} alt="tick" />
           <p className="relative inline-flex items-center w-full px-4 py-2 text-xs font-medium border-gray-200 rounded-t-lg    ">
-            Solving and Optimizing problems 
+            Solving and Optimizing Problems 
           </p>
         </div>
       </div>
