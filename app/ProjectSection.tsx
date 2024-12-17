@@ -17,7 +17,7 @@ function ProjectSection() {
           <div className="w-full mx-auto flex sm:justify-center sm:overflow-hidden overflow-x-scroll rounded-md">
             <TabsList className="">
               <TabsTrigger value="aiml">AIML</TabsTrigger>
-              <TabsTrigger value="genai">LLMs & Gen AI</TabsTrigger>
+              <TabsTrigger value="genai">Gen AI & LLMs</TabsTrigger>
               <TabsTrigger value="mlops">MLOps</TabsTrigger>
               <TabsTrigger value="qml">QML</TabsTrigger>
               <TabsTrigger value="more">More</TabsTrigger>
