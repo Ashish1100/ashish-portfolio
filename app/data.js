@@ -236,40 +236,41 @@ const {
         "Developed graph-based \"recommendation system\" enhancing ",
         "user experiences and increasing engagement metrics."
       ]
-    },
-    {
-      id: 3,
-      title: "Research & Development Intern",
-      url: "https://www.isro.gov.in",
-      image: samsung,
-      locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
-      description: [
-        "Developed graph-based \"recommendation system\" enhancing ",
-        "user experiences and increasing engagement metrics."
-      ]
-    },
-    {
-      id: 4,
-      title: "Research & Development Intern",
-      url: "https://www.isro.gov.in",
-      image: samsung,
-      locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
-      description: [
-        "Developed graph-based \"recommendation system\" enhancing ",
-        "user experiences and increasing engagement metrics."
-      ]
-    },
-    {
-      id: 5,
-      title: "Research & Development Intern",
-      url: "https://www.isro.gov.in",
-      image: samsung,
-      locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
-      description: [
-        "Developed graph-based \"recommendation system\" enhancing ",
-        "user experiences and increasing engagement metrics."
-      ]
-    },
+    }
+    // },
+    // {
+    //   id: 3,
+    //   title: "Research & Development Intern",
+    //   url: "https://www.isro.gov.in",
+    //   image: samsung,
+    //   locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
+    //   description: [
+    //     "Developed graph-based \"recommendation system\" enhancing ",
+    //     "user experiences and increasing engagement metrics."
+    //   ]
+    // },
+    // {
+    //   id: 4,
+    //   title: "Research & Development Intern",
+    //   url: "https://www.isro.gov.in",
+    //   image: samsung,
+    //   locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
+    //   description: [
+    //     "Developed graph-based \"recommendation system\" enhancing ",
+    //     "user experiences and increasing engagement metrics."
+    //   ]
+    // },
+    // {
+    //   id: 5,
+    //   title: "Research & Development Intern",
+    //   url: "https://www.isro.gov.in",
+    //   image: samsung,
+    //   locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
+    //   description: [
+    //     "Developed graph-based \"recommendation system\" enhancing ",
+    //     "user experiences and increasing engagement metrics."
+    //   ]
+    // },
   ];
 
 
