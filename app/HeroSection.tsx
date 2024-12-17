@@ -51,7 +51,7 @@ function SocialIcon({ image, href }: SocailIconProps) {
     <Link
       href={href}
       target="_blank"
-      className="p-[6px] rounded-md shadow-sm shadow-black/25 hover:-translate-y-[1px] transition-all"
+      className="p-[6px] rounded-md shadow-sm shadow-black/25 transition-all"
     >
       <Image className="heroSocialIcon" src={image} alt="Social Icon" />
     </Link>
