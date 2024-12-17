@@ -62,9 +62,7 @@ const Home = () => {
         <hr className="mb-5" />
         <ContactSection />
       </div>
-      <div className="max-w-6xl mx-auto flex flex-col  px-4 py-8 text-center text-xs opacity-40">
-        © Copyright Ashish Saha 2024. All Rights are Reserved.
-      </div>
+      
     </div>
   );
 };

@@ -123,6 +123,9 @@ const {
         tech: [githubActions, argocd, kubernetes, docker],
         url: "https://example.com/project1", // URL for the project
         github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        features: ["Responsive", "Fast", "Secure", "SEO Friendly"],
+        ppt: "https://example.com/project1/ppt", // URL for the project presentation
+        report: "https://example.com/project1/report", // URL for the project report
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
