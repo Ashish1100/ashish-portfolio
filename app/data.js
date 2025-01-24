@@ -23,6 +23,7 @@ import hackerrank from "@/public/hackerrank.png";
 import googleScholar from "@/public/ContactgoogleScholar.png";
 import briefcase from "@/public/contactBriefcase.png";
 import contactSectionIcon from "@/public/contacts.png";
+import cryptoPricePrediction from "@/public/cryptoPricePrediction.webp"
 
 const techLinks = {
   nodejs:
@@ -74,6 +75,8 @@ const techLinks = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/digitalocean/digitalocean-original.svg",
   githubActions:
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+  tensorFlow: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg",
+  streamLit: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg",
 };
 
 const {
@@ -102,6 +105,9 @@ const {
     twitter,
     github,
     githubActions,
+    tensorFlow,
+    streamLit
+    
   } = techLinks;
 
 
@@ -115,19 +121,19 @@ const {
     {
         id: 1,
         tag: "top",
-        title: "Aiml project",
+        title: "Cryptocurrency Price Prediction",
         category: "aiml",
-        image: cicd2,
+        image: cryptoPricePrediction,
         description:
-          "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
-        tech: [githubActions, argocd, kubernetes, docker],
-        url: "https://example.com/project1", // URL for the project
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+          "Online tool to predit crypto price using advanced AI.",
+        tech: [github, python, tensorFlow, streamLit],
+        url: "https://cryptocurrency-price-prediction-ashishsaha.streamlit.app/", // URL for the project
+        github: "https://github.com/Ashish1100/Cryptocurrency-Price-Prediction",
         features: ["Responsive", "Fast", "Secure", "SEO Friendly"],
         ppt: "https://example.com/project1/ppt", // URL for the project presentation
         report: "https://example.com/project1/report", // URL for the project report
         detailedDescription:
-          "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
+          "An online tool that uses artificial intelligence and web technology to predict digital currency market values. LSTM neural networks operate on this online tool to examine data patterns and determine which direction cryptography will move.",
       },
     {
         id: 2,
