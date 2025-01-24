@@ -5,10 +5,11 @@ import { MdOutlineKeyboardBackspace } from "react-icons/md";
 import githubLogo from "@/public/github.png";
 
 interface Props {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
-const ProjectDetailPage = ({ params: { id } }: Props) => {
+const ProjectDetailPage = async ({ params }: Props) => {
+  const { id } = await params;
   const project = ProjectList.find((p) => p.id === parseInt(id));
 
   return (
@@ -21,17 +22,17 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
         <p className="text-2xl sm:text-3xl font-bold">{project?.title}</p>
       </div>
 
-      <div className="p-4  sm:p-4  rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 bg-zinc-50">
-        <div className="h-fit overflow-hidden  rounded-md flex-1 bg-zinc-100 p-3 md:mr-6 md:mt-6">
+      <div className="p-4 sm:p-4 rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 bg-zinc-50">
+        <div className="h-fit overflow-hidden rounded-md flex-1 bg-zinc-100 p-3 md:mr-6 md:mt-6">
           {project?.image && (
             <Image
               className="rounded object-cover w-full p-3"
-              src={project?.image}
+              src={project.image}
               alt={project.title}
             />
           )}
 
-          <div className=" p-6">
+          <div className="p-6">
             <div className="flex gap-3 items-center justify-between">
               <Link
                 href={project?.url || "#"}
@@ -42,7 +43,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
                 <div className="size-1.5 bg-green-400 rounded-full"></div>
               </Link>
 
-              <a href={project?.github} target="_blank" className="  text-sm">
+              <a href={project?.github} target="_blank" className="text-sm">
                 <Image
                   src={githubLogo}
                   alt="github"
@@ -54,14 +55,14 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
               <a
                 href={project?.ppt}
                 target="_blank"
-                className=" bg-black opacity-75 hover:opacity-100 text-white text-sm px-5 cursor-pointer rounded-sm"
+                className="bg-black opacity-75 hover:opacity-100 text-white text-sm px-5 cursor-pointer rounded-sm"
               >
                 PPT
               </a>
               <a
                 href={project?.report}
                 target="_blank"
-                className=" bg-black opacity-75 hover:opacity-100 text-white text-sm px-5 cursor-pointer rounded-sm"
+                className="bg-black opacity-75 hover:opacity-100 text-white text-sm px-5 cursor-pointer rounded-sm"
               >
                 Report
               </a>
@@ -70,7 +71,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
         </div>
 
         <div className="text-zinc-700 dark:text-white lg:w-[60%] p-6">
-          <p className="p-1 bg-purple-100 text-purple-800  text-xs font-bold me-2 px-2.5 py-1 rounded dark:bg-purple-900 dark:text-purple-300 w-fit">
+          <p className="p-1 bg-purple-100 text-purple-800 text-xs font-bold me-2 px-2.5 py-1 rounded dark:bg-purple-900 dark:text-purple-300 w-fit">
             {project?.category}
           </p>
 
@@ -112,7 +113,7 @@ const ProjectDetailPage = ({ params: { id } }: Props) => {
                     height={20}
                     key={i}
                     src={t}
-                    alt={i + ""}
+                    alt={i.toString()}
                   />
                 </div>
               ))}
