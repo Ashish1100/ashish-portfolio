@@ -62,13 +62,13 @@ function Publication({ title, year, children, doi, image }: PublicationProps) {
       <div className="flext-1">
         <p className="text-md text-zinc-600 font-semibold">{title}</p>
         <p className="text-xs mt-1.5  opacity-90">
-          {children}
+          {children} 
           <Link
             target="_blank"
             href={doi}
-            className="text-[#0072A9] inline-flex items-center gap-0.5 underline"
+            className="text-[#0072A9] inline-flex items-center gap-0.5 underline ml-1"
           >
-            DOI <MdArrowOutward className=" inline" />
+             DOI <MdArrowOutward className=" inline" />
           </Link>
         </p>
       </div>

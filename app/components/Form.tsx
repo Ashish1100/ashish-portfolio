@@ -102,7 +102,7 @@ const Form = ({ handleSubmit }: Props) => {
       <button
         type="submit"
         className="w-full py-2 bg-[#7BD3EA] font-semibold rounded-md hover:bg-[#6ee485] transition duration-200"
-        data-aos="fade-down"
+        // data-aos="fade-down"
         data-aos-delay="500"
       >
         Send Message

@@ -89,7 +89,7 @@ const ProjectCard = ({
             {url && (
               <Link href={url} target="_blank" className="border cursor-pointer border-black/60 size-fit px-3 rounded-full text-sm flex gap-1.5 items-center hover:bg-zinc-300">
                 Live
-                <div className="size-2 bg-green-400 rounded-full"></div>
+                <div className="size-1.5 bg-green-400 rounded-full"></div>
               </Link>
             )}
           </div>

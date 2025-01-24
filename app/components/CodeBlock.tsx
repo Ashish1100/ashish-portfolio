@@ -32,7 +32,15 @@ const CodeBlock = () => {
           </div>
           <div data-aos="fade" data-aos-delay="400">
             <span className="ml-5 text-green-600">{`'socials': `}</span>
-            <span className="text-purple-600">{`['LinkedIn', 'GitHub'],`}</span>
+            <span className="text-purple-600">
+              <a href="#" target="_blank" className="underline cursor-pointer">
+                LinkedIn
+              </a>
+              ,{" "}
+              <a href="#" target="_blank" className="underline cursor-pointer">
+                GitHub
+              </a>
+            </span>
           </div>
           <div data-aos="fade" data-aos-delay="500">
             <span className="ml-5 text-green-600">{`'problem solver': `}</span>
@@ -70,6 +78,9 @@ const CodeBlock = () => {
             <span className="text-purple-600">{`is_hireable`}</span>
             <span className="text-blue-600">{`)`}</span>
           </div>
+          <span data-aos="fade" data-aos-delay="1300" className="mt-6 ">
+            # Fun Fact: clickable socials
+          </span>
         </code>
       </div>
     </div>
