@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
+import { contactLinks } from "@/app/data";
 
 const CodeBlock = () => {
   useEffect(() => {
@@ -33,13 +34,29 @@ const CodeBlock = () => {
           <div data-aos="fade" data-aos-delay="400">
             <span className="ml-5 text-green-600">{`'socials': `}</span>
             <span className="text-purple-600">
-              <a href="#" target="_blank" className="underline cursor-pointer">
+              [
+              <a
+                href={
+                  contactLinks.find((c) => c.label.toLowerCase() === "linkedin")
+                    ?.href
+                }
+                target="_blank"
+                className="underline cursor-pointer"
+              >
                 LinkedIn
               </a>
               ,{" "}
-              <a href="#" target="_blank" className="underline cursor-pointer">
+              <a
+                href={
+                  contactLinks.find((c) => c.label.toLowerCase() === "github")
+                    ?.href
+                }
+                target="_blank"
+                className="underline cursor-pointer"
+              >
                 GitHub
               </a>
+            ],
             </span>
           </div>
           <div data-aos="fade" data-aos-delay="500">

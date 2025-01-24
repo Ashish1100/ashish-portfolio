@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
         {children}{" "}
-        <div className="max-w-6xl mx-auto flex flex-col mb-2 px-4  text-center text-xs opacity-40 absolute bottom-0 left-0 right-0">
+        <div className="max-w-6xl mx-auto flex flex-col mb-2 px-4  text-center text-xs opacity-40 mt-3">
           © Copyright Ashish Saha 2024. All Rights are Reserved.
         </div>
       </body>
