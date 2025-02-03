@@ -144,8 +144,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: "www.google.com",
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -158,8 +158,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -172,8 +172,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: "https://example.com/project4", // URL for the project
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing", // URL for the project
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -186,8 +186,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -200,8 +200,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -214,8 +214,8 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
-        github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
+        url: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
+        github: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
       },
@@ -235,7 +235,7 @@ const {
     {
       id: 2,
       title: "Research & Development Intern",
-      url: "https://www.isro.gov.in",
+      url: "https://research.samsung.com/",
       image: samsung,
       locationPeriod: "Samsung Research | Feb 2023 - Sep 2023 | Bangalore, India.",
       description: [
@@ -308,7 +308,7 @@ const {
       image: isro,
       title: "BERT-NER: A Transformer-Based Approach For Named Entity Recognition.",
       year: 2024,
-      doi: "https://ieeexplore.ieee.org/document/10724703",
+      doi: "https://drive.google.com/file/d/1RAFaRg2EHXsUo2UIBwaXZl1wmLg0xkSf/view?usp=sharing",
       conference: "15th International Conference on Computing Communication and Networking Technologies (ICCCNT). IIT Mandi, India."
     }
   ];
@@ -351,27 +351,33 @@ const {
   export const blogsData = [
     {
       id: 1,
-      title: "Empowering Dreams: How We Built an AI-Driven Startup to Simplify Business Development and Revolutionize the Entrepreneurial Journey.",
-      link: "https://example.com/blog1" // URL for the blog post
+      title: "What is Machine Learning? Types of Machine Learning(ML).",
+      link: "https://medium.com/@ashish_saha/what-is-machine-learning-49534f52fa24" // URL for the blog post
     },
     {
       id: 2,
-      title: "Unlocking the Future: How Artificial Intelligence is Changing the Face of Digital Marketing.",
-      link: "https://example.com/blog2" // URL for the blog post
+      title: "How to Pass Microsoft Certified: Azure Data Scientist Associate (DP-100) Exam.",
+      link: "https://www.linkedin.com/pulse/how-pass-microsoft-certified-azure-data-scientist-associate-saha-rf4wc/?trackingId=LuT7MKFpSMyta2pO6X1zbg%3D%3D" // URL for the blog post
+    },
+
+    {
+      id: 3,
+      title: "Let's Study Azure: Unleashing Cloud Computing's Potential.",
+      link: "https://medium.com/@ashish_saha/lets-study-azure-unleashing-cloud-computing-s-potential-4e98b87ca67a" // URL for the blog post
     }
     // Add more blogs as needed
   ];
   
 
  export const contactLinks = [
-    { label: "GitHub", image: githubLogo, href: "https://github.com" },
-    { label: "LinkedIn", image: linkedinimg, href: "https://linkedin.com" },
-    { label: "Google Scholar", image: googleScholar, href: "https://scholar.google.com" },
+    { label: "GitHub", image: githubLogo, href: "https://github.com/Ashish1100" },
+    { label: "LinkedIn", image: linkedinimg, href: "https://www.linkedin.com/in/ashishsaha21/" },
+    { label: "Google Scholar", image: googleScholar, href: "https://scholar.google.com/citations?user=8jecmiMAAAAJ&hl=en&authuser=3" },
     { label: "LeetCode", image: leetcode, href: "https://leetcode.com" },
     { label: "HackerRank", image: hackerrank, href: "https://hackerrank.com" },
-    { label: "Medium", image: medium, href: "https://medium.com" },
-    { label: "Kaggle", image: kaggle, href: "https://kaggle.com" },
-    { label: "Portfolio", image: briefcase, href: "https://portfolio.com" },
+    { label: "Medium", image: medium, href: "https://medium.com/@ashish_saha" },
+    { label: "Kaggle", image: kaggle, href: "https://www.kaggle.com/ashishsaha2125" },
+    { label: "Portfolio", image: briefcase, href: "https://www.ashishsaha.tech/" },
   ];
 
 
@@ -388,10 +394,10 @@ const {
 // hero section
 export const name = "Ashish Saha"
 export  const socialLinks = [
-  { href: "https://www.linkedin.com/in/your-profile", image: hero_linkedin },
-  { href: "https://github.com/your-profile", image: hero_github },
-  { href: "https://scholar.google.com/citations?user=your-id", image: hero_google_scholar },
-  { href: "mailto:your-email@example.com", image: hero_email },
+  { href: "https://www.linkedin.com/in/ashishsaha21/", image: hero_linkedin },
+  { href: "https://github.com/Ashish1100", image: hero_github },
+  { href: "https://scholar.google.com/citations?user=8jecmiMAAAAJ&hl=en&authuser=3", image: hero_google_scholar },
+  { href: "mailto:ashishsaha.software@gmail.com", image: hero_email },
 ];
 
 
