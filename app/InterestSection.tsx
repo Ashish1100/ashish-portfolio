@@ -21,7 +21,7 @@ function InterestSection() {
             {/* Marquee Text */}
             <p className="text-center my-4 overflow-hidden relative w-full">
               <span className="inline-block whitespace-nowrap animate-marquee text-sm">
-                Ideas Become Reality! → Let&apos;s Go
+                Ideas Become Reality! → Engineering
               </span>
             </p>
 
