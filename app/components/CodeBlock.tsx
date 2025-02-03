@@ -24,16 +24,16 @@ const CodeBlock = () => {
             <span className="text-blue-600">{`data = {`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="200">
-            <span className="ml-5 text-green-600">{`'name': `}</span>
+            <span className="ml-5 text-black-600">{`'name': `}</span>
             <span className="text-red-600">{`'Ashish Saha',`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="300">
-            <span className="ml-5 text-green-600">{`'skills': `}</span>
-            <span className="text-purple-600">{`['AI/ML', 'LLMs', 'Gen AI'],`}</span>
+            <span className="ml-5 text-black-600">{`'skills': `}</span>
+            <span className="text-orange-600">{`['AI/ML', 'LLMs', 'Gen AI'],`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="400">
-            <span className="ml-5 text-green-600">{`'socials': `}</span>
-            <span className="text-purple-600">
+            <span className="ml-5 text-black-600">{`'socials': `}</span>
+            <span className="text-sky-600">
               [
               <a
                 href={
@@ -60,44 +60,45 @@ const CodeBlock = () => {
             </span>
           </div>
           <div data-aos="fade" data-aos-delay="500">
-            <span className="ml-5 text-green-600">{`'problem solver': `}</span>
-            <span className="text-blue-600">{`True,`}</span>
+            <span className="ml-5 text-black-600">{`'problem solver': `}</span>
+            <span className="text-pink-500">{`True,`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="600">
             <span>{` `}</span>
           </div>
           <div data-aos="fade" data-aos-delay="700">
-            <span className="ml-5 text-green-600">{`'hire': `}</span>
-            <span className="text-blue-600">{`lambda `}</span>
-            <span className="text-orange-600">{`s: (`}</span>
+            <span className="ml-5 text-black-600">{`'hire': `}</span>
+            <span className="text-pink-500">{`lambda `}</span>
+            <span className="text-pink-600">{`s: (`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="800">
             <span className="ml-10">{`s['problem solver'] `}</span>
-            <span className="text-blue-600">{`and`}</span>
+            <span className="text-pink-500">{`and`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="900">
             <span className="ml-10">{`len(s['skills']) `}</span>
             <span className="text-blue-600">{`>= 3`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="1000">
-            <span className="ml-5 text-orange-600">{`)`}</span>
+            <span className="ml-5 text-pink-500">{`)`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="1100">
             <span className="text-blue-600">{`}`}</span>
           </div>
           <div>&nbsp;</div>
           <div data-aos="fade" data-aos-delay="1200">
-            <span className="text-blue-600">{`is_hireable = `}</span>
-            <span className="text-purple-600">{`data['hire'](data)`}</span>
+            <span className="text-purple-600">{`is_hireable = `}</span>
+            <span className="text-blue-600">{`data['hire'](data)`}</span>
           </div>
           <div data-aos="fade" data-aos-delay="1300">
-            <span className="text-blue-600">{`print(`}</span>
+            <span className="text-sky-500">{`print(`}</span>
             <span className="text-purple-600">{`is_hireable`}</span>
-            <span className="text-blue-600">{`)`}</span>
+            <span className="text-sky-500">{`)`}</span>
           </div>
-          <span data-aos="fade" data-aos-delay="1300" className="mt-6 ">
-            # Fun Fact: clickable socials
-          </span>
+          <div style={{ height: "1rem" }}></div>
+          <span style={{ color: "#5B913B" }}>
+              {`# Fun Fact: clickable socials`}
+            </span>
         </code>
       </div>
     </div>
