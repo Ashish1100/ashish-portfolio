@@ -23,7 +23,7 @@ const SectionHeading = ({
     <div className="flex justify-between w-full h-fit">
       <h2 className="text-xl flex items-center gap-2 ">
         {" "}
-        <Image className="size-4 mb-1" src={image} alt="Experience" />{" "}
+        <Image width={16} height={16} className="size-4 mb-1" src={image} alt="Experience" />{" "}
         {children}
       </h2>
       {buttonVisibility && (

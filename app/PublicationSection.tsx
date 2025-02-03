@@ -54,7 +54,7 @@ function Publication({ title, year, children, doi, image }: PublicationProps) {
   return (
     <div className="flex gap-8 p-2 rounded-md">
       <div className="flex flex-col justify-center items-center h-fit mt-1 gap-y-2">
-        <Link href={"https://www.ieee.org"}>
+        <Link target='_blank' href={"https://www.ieee.org"}>
           <Image src={image} className="size-9 border" alt="isro" />
         </Link>
         <span className="opacity-75 text-xs">{year}</span>

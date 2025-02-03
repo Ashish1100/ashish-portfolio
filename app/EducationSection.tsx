@@ -20,7 +20,8 @@ function EducationSection() {
       <div className="flex flex-col gap-12 mt-5">
         {visibleItems.map((education) => (
           <div key={education.id} className="flex gap-8 p-2 rounded-md">
-            <Link href={education.link}>
+            <Link target="_blank" href={education.link}>
+            
               <Image
                 src={education.image}
                 className="size-16 border rounded-md shadow-sm shadow-black"

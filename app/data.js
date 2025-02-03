@@ -144,7 +144,7 @@ const {
         description:
           "Automated CI/CD Pipeline for Node.js Application with Github Actions and Kubernetes",
         tech: [githubActions, argocd, kubernetes, docker],
-        url: undefined,
+        url: "www.google.com",
         github: "https://github.com/ankitrajxd/nodeapp-gha-argocd-cicd",
         detailedDescription:
           "This project demonstrates setting up a CI/CD pipeline for a Node.js application. The pipeline test the application code,builds a Docker image of the application, pushes it to Docker Hub, and then deploys it in kubernetes environment (local) via argocd.",
@@ -410,7 +410,7 @@ export const projectTitleImage = projectSectionIcon
 
 
 // publication section
-export const publicationTitle = "Publications"
+export const publicationTitle = "Research Publications"
 export const publicationTitleImage = publicationSectionIcon
 
 // News Section
