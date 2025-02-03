@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 import Button from "./Button";
 
 interface Props {
-  image: StaticImageData;
+  image?: StaticImageData;
   children: React.ReactNode;
   hanldeButtonClick?: () => void;
   buttonVisibility?: boolean;
@@ -23,7 +23,7 @@ const SectionHeading = ({
     <div className="flex justify-between w-full h-fit">
       <h2 className="text-xl flex items-center gap-2 ">
         {" "}
-        <Image width={16} height={16} className="size-4 mb-1" src={image} alt="Experience" />{" "}
+        <Image width={16} height={16} className="size-4 mb-1" src={image!} alt="Experience" />{" "}
         {children}
       </h2>
       {buttonVisibility && (

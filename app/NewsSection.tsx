@@ -1,10 +1,11 @@
 "use client";
-import { MdOutlinePhoneIphone } from "react-icons/md";
+
 import { newsData, newsTitleImage, newsTitle } from "./data";
 import SectionHeading from "./components/SectionHeading";
 import useVisibleItems from "./hooks/useVisibleItems";
-import Image from "next/image"
-import news6 from '@/public/news_6.png';
+
+import { FaRegNewspaper } from "react-icons/fa";
+
 
 
 function NewsSection() {
@@ -35,10 +36,9 @@ export default NewsSection;
 
 function News({ children, date }: { children: React.ReactNode; date: string }) {
   return (
-    <div className="flex gap-8 p-2 rounded-md">
-      <div className="w-9 mt-1">
-        <Image className="size-6" width={14} height={14} src={news6} alt="news icon" />
-      </div>
+    <div className="flex gap-3 p-2 rounded-md items-center ">
+  
+        <FaRegNewspaper size={25}/>
 
       <div>
         <p className="text-sm">
