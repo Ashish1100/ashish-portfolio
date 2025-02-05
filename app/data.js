@@ -21,7 +21,7 @@ import leetcode from "@/public/leetcode.png";
 import kaggle from "@/public/kaggle.png";
 import hackerrank from "@/public/hackerrank.png";
 import googleScholar from "@/public/ContactgoogleScholar.png";
-import briefcase from "@/public/contactBriefcase.png";
+import orcid from "@/public/orcid.png";
 import codeforces from "@/public/codeforces.png";
 import codechef from "@/public/codechef.png";
 import contactSectionIcon from "@/public/contacts.png";
@@ -379,7 +379,7 @@ const {
     { label: "HackerRank", image: hackerrank, href: "https://hackerrank.com" },
     { label: "Medium", image: medium, href: "https://medium.com/@ashish_saha" },
     { label: "Kaggle", image: kaggle, href: "https://www.kaggle.com/ashishsaha2125" },
-    { label: "Portfolio", image: briefcase, href: "https://www.ashishsaha.tech/" },
+    { label: "ORCiD", image: orcid, href: "https://orcid.org/0009-0004-8650-4708" },
     { label: "CodeChef", image: codechef, href: "https://www.codechef.com/" },
     { label: "CodeForces", image: codeforces, href: "https://codeforces.com/" },
   ];
