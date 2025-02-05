@@ -38,7 +38,9 @@ function News({ children, date }: { children: React.ReactNode; date: string }) {
   return (
     <div className="flex gap-3 p-2 rounded-md items-center ">
   
-        <FaRegNewspaper size={25}/>
+        <div className="">
+          <FaRegNewspaper size={25}/>
+        </div>
 
       <div>
         <p className="text-sm">

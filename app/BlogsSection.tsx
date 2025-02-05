@@ -16,7 +16,9 @@ function BlogsSection() {
       <div className="flex flex-col gap-12 mt-5">
         {blogsData.map((blog) => (
           <div key={blog.id} className="flex gap-4 p-2 rounded-md items-center">
-            <PiBookOpenTextDuotone size={25}/>
+            <div>
+              <PiBookOpenTextDuotone size={25}/>
+            </div>
 
             <div className="text-sm">
               <span className="">{blog.title}</span>

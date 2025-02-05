@@ -22,6 +22,8 @@ import kaggle from "@/public/kaggle.png";
 import hackerrank from "@/public/hackerrank.png";
 import googleScholar from "@/public/ContactgoogleScholar.png";
 import briefcase from "@/public/contactBriefcase.png";
+import codeforces from "@/public/codeforces.png";
+import codechef from "@/public/codechef.png";
 import contactSectionIcon from "@/public/contacts.png";
 import cryptoPricePrediction from "@/public/cryptoPricePrediction.webp"
 
@@ -378,6 +380,8 @@ const {
     { label: "Medium", image: medium, href: "https://medium.com/@ashish_saha" },
     { label: "Kaggle", image: kaggle, href: "https://www.kaggle.com/ashishsaha2125" },
     { label: "Portfolio", image: briefcase, href: "https://www.ashishsaha.tech/" },
+    { label: "CodeChef", image: codechef, href: "https://www.codechef.com/" },
+    { label: "CodeForces", image: codeforces, href: "https://codeforces.com/" },
   ];
 
 

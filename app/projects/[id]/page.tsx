@@ -22,8 +22,8 @@ const ProjectDetailPage = async ({ params }: Props) => {
         <p className="text-2xl sm:text-3xl font-bold">{project?.title}</p>
       </div>
 
-      <div className="p-4 sm:p-4 rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 bg-zinc-50">
-        <div className="h-fit overflow-hidden rounded-md flex-1 bg-zinc-100 p-3 md:mr-6 md:mt-6">
+      <div className="p-4 sm:p-4 rounded-lg flex flex-col xl:flex-row-reverse gap-x-11 gap-y-4 mt-5 bg-zinc-100">
+        <div className="h-fit overflow-hidden rounded-md flex-1 bg-zinc-200 p-3 md:mr-6 md:mt-6">
           {project?.image && (
             <Image
               className="rounded object-cover w-full p-3"
